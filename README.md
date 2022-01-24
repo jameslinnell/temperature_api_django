@@ -7,6 +7,8 @@ REST API (DJANGO) can be found https://temperature-api-django.herokuapp.com/api/
   It can be ordered with ?ordering=value_datetime or ?ordering=-value_datetime for latest first
   Currently No Authentication on the REST API other than CORS whitelisting. So POSTing not available to any domain not whitelisted but anyone can GET the data.
   Data returned currently does not contain the numpy and scipy data as the api is running a different branch but the current data returned with numpy/scipy is like the following.
+  
+  
   [
     {
         "id": "dc19b1ec-871f-410f-9b88-fce8114e91db",
